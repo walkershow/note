@@ -115,3 +115,6 @@ Now you have the power to truly master CTRL-R!
 在编辑一些需要root权限才可以编辑的文件的时候
 如果已经以非root的用户打开了 vim 而且这个用户是 sudoer
 这条命令可以不用退出 vim 切换到 root 就完成对文件的写操作
+
+#替换^@ 用
+:%s/\%x00/ /g
